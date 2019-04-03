@@ -1,18 +1,19 @@
-JFLAGS = -g
-JC = javac
-JRUN = java 
+COMPILE = javac -g
+PERM = src/ Controller
 
 .SUFFIXES: .java .class
 
 .java.class:
-	$(JC) $(JFLAGS) $ src/*.java
+	$(COMPILE) $ src/*.java
 
-CLASSES = \
-      src/Node.java  \
+CLASSES = src/PathFinder.java \
+          src/Controller.java \
+	        src/Node.java 
 
-default: classes
+run: classes
+	java -cp src/ Controller
 
 classes: $(CLASSES:.java=.class)
 
 clean:
-	$(RM) src/*.class
+	rm -f src/*.class
