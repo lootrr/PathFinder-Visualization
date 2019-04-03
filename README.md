@@ -1,6 +1,6 @@
 # PathFinder Visualization
 
-## A Java GUI visualizer that searches for a possible path using Dijkstra's or A* Algorithm.
+## A Java GUI that searches for a possible path using algorithms.
 
 ## Program Demo
 <img src='Demo.gif' title='Gif demo of pathfinder!' alt='PathFinder!'>
@@ -27,5 +27,4 @@ Hold 'd' and click on the specific node the user wants to delete.
 Press '1' to use the Dijkstra pathfinding
 
 Press '2' to use the A-Star pathfinding
-
 
