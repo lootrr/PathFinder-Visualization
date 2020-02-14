@@ -12,6 +12,7 @@ import javax.swing.*;
 public class Controller extends JPanel implements ActionListener,
                               MouseListener, KeyListener, MouseMotionListener {
   private PathFinder path;
+  // added a Jpanel frame
   private JPanel pane;
   private JFrame frame;
 

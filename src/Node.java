@@ -5,6 +5,7 @@
 public class Node {
 
   private int x;
+  // varaibles used for x
   private int y;
   private double f, g, h;
   private Node parent;

@@ -10,6 +10,8 @@ import java.awt.Point;
 
 public class PathFinder {
 
+  // variables used for Astar
+
   private static final int NODE_SIZE = 25;
   private static final int DIAGONAL_MOVE = (int) (Math.sqrt(1250));
 
