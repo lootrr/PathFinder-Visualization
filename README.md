@@ -1,6 +1,9 @@
 # PathFinder Visualization
 
 ## A Java GUI that searches for a possible path using algorithms.
+Designed and developed a GUI Visualizer with the intent of finding an efficient path-finding algorithm in Java.
+Strengthened understanding of pathfinding algorithms such Djikstra’s and A* Search 
+Language and Frameworks: Java, Java Swing API
 
 ## Program Demo
 <img src='Demo.gif' title='Gif demo of pathfinder!' alt='PathFinder!'>
